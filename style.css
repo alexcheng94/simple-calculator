@@ -1,0 +1,37 @@
+*{
+	border-radius: 4px;
+}
+
+button{
+	width: 100px;
+	height:50px;
+	margin-top: 6.25px;
+	margin-bottom: 6.25px;
+	border: 1px solid #DEDEDE;
+	background: #F3F3F3;  
+}
+button:hover{
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.container{
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	margin: 50px auto;
+	width: 500px;
+	height: 370px;
+	border: 1px solid #aeaeae;
+}
+
+.result{
+	border: 1px solid #aeaeae;
+	width: 90%;
+	height: 50px;
+	margin: 22px auto;
+	background: #fff;
+}
+.buttons{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 90%;
+	margin: auto;
+}
