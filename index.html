@@ -6,33 +6,29 @@
 </head>
 <body>
 	<div class="container">
-		<div class="result"></div>
+		<div class="window"><p id="result"></p></div>
 		<div class="buttons">
-			<button class="num" value="">7</button>
-			<button class="num" value="">8</button>
-			<button class="num" value="">9</button>
-			<button class="operator">+</button>
-			<button class="num" value="">4</button>
-			<button class="num" value="">5</button>
-			<button class="num" value="">6</button>
-			<button class="operator">-</button>
-			<button class="num" value="">1</button>
-			<button class="num" value="">2</button>
-			<button class="num" value="">3</button>
-			<button class="operator">x</button>
-			<button class="num" value="">0</button>
-			<button class="num" value="">.</button>
-			<button class="operator">CE</button>
-			<button class="operator">/</button>
-			<button class="operator" id="equal">=</button>
-			
+			<button class="num" value="7">7</button>
+			<button class="num" value="8">8</button>
+			<button class="num" value="9">9</button>
+			<button class="operator calc-op"  value="+">+</button>
+			<button class="num" value="4">4</button>
+			<button class="num" value="5">5</button>
+			<button class="num" value="6">6</button>
+			<button class="operator calc-op" value="-">-</button>
+			<button class="num" value="1">1</button>
+			<button class="num" value="2">2</button>
+			<button class="num" value="3">3</button>
+			<button class="operator calc-op" value="x">x</button>
+			<button class="num" value="0">0</button>
+			<button class="num" value=".">.</button>
+			<button class="operator special" id="clear">CE</button>
+			<button class="operator calc-op"  value="/">÷</button>
+			<button class="operator special" id="equal">=</button>
 		</div> <!-- End .buttons -->
 	</div> <!-- End .container -->
 	
-	<script
-	  src="https://code.jquery.com/jquery-3.2.1.min.js"
-	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-	  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="./app.js"></script>
 </body>
 </html>

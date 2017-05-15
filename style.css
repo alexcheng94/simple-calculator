@@ -1,8 +1,10 @@
 *{
 	border-radius: 4px;
 }
-
+body{
+}
 button{
+	font-size: 1.2em;
 	width: 100px;
 	height:50px;
 	margin-top: 6.25px;
@@ -19,13 +21,19 @@ button:hover{
 	height: 430px;
 	border: 1px solid #aeaeae;
 }
-
-.result{
+.window{ 
+	position: relative;
+	color: black;
 	border: 1px solid #aeaeae;
 	width: 90%;
 	height: 50px;
 	margin: 22px auto;
 	background: #fff;
+	overflow: hidden;
+}
+#result{
+	display: inline-block;
+	float: right;
 }
 .buttons{
 	display: flex;
@@ -34,12 +42,11 @@ button:hover{
 	width: 90%;
 	margin: auto;
 }
-
 #equal{
+	color: #fff;
 	width: 100%;
 	background: #498BF4;
 }
-
 .num{
 	background: #F3F3F3;  
 }
