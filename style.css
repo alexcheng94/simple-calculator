@@ -55,9 +55,17 @@ button:hover{
 	width: 90%;
 	margin: auto;
 }
+
+#allClear{
+	background: #D9534F;
+	width: 48.56%;
+	font-size: 1.2em;
+	color: #fff;
+}
 #equal{
 	color: #fff;
-	width: 100%;
+	width: 48.56%;
+	font-size: 1.9em;
 	background: #498BF4;
 }
 .num{
