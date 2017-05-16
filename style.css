@@ -14,9 +14,22 @@ button{
 button:hover{
 	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
+.hint{
+	box-sizing: border-box;
+	border: 1px solid red;
+	width: 500px;
+	margin: 20px auto;
+	background: #D9534F;
+	color: floralwhite;
+	font-size: 1.2em;
+	padding: 10px;
+	font-weight: bold;
+	border: 5px solid floralwhite;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 .container{
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-	margin: 50px auto;
+	margin: 20px auto;
 	width: 500px;
 	height: 430px;
 	border: 1px solid #aeaeae;
@@ -52,4 +65,7 @@ button:hover{
 }
 .operator{
 	background: #D4D4D4;
+}
+.calc-op:focus{
+ 	border: 3px solid lightblue;
 }
